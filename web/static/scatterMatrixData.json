@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "gender": "F", 
+      "max_income": 2368
+    }, 
+    {
+      "gender": "M", 
+      "max_income": 2822
+    }
+  ]
+}

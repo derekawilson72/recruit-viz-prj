@@ -1,0 +1,10 @@
+
+Here are my solutions to the Python and web challenges.
+
+
+1. Python
+In the python directory, run the start.py script to execute the scattermatrix solution
+
+2. Web
+In the web directory, run the start.py script to initiate the server.  Open the index page in a web browser and click on the scattermatrix link.
+
