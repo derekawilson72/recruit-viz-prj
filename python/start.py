@@ -28,7 +28,8 @@ else:
 ##get columns
 columns=df_customer.columns
 
-df_customer.is_smoker[df_customer.is_smoker==' ']='0' ##fix the is smoker column to 0 or 1
+df_customer.is_smoker=map(lambda x: {True:1, False:0}[x=='1'],df_customer.is_smoker) ##fix the is smoker column to 0 or 1.  
+##if column value is '1', change to 1, else 0
 df_customer.economic_stability=map(lambda x: int(x),df_customer.economic_stability )##convert economic stability to integer
 
 
